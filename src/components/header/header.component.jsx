@@ -7,16 +7,17 @@ import { Link } from 'react-router-dom';
 
 const Header = ({ currentUser }) => (
     <header className='header'>
-        {/* <div className='ca-logo-box'>
-            <img src='' alt='curious-ant-logo' className='ca-logo' />
+        {/* <div className='header__logo-box'>
+            <img src='' alt='curious-ant-logo' className='header__logo' />
         </div> */}
-        <div className='ca-header-box'>
-            <h1 className='ca-primary-heading'>
-                <span className='ca-primary-heading-main'>CURIOUSANT</span>
-                <span className='ca-primary-heading-sub'>PASSIONATLY CURIOUS</span>
+        <div className='header__text-box'>
+            <h1 className="heading-primary">
+                <span className="heading-primary--main">CURIOUSANT</span>
+                <span className="heading-primary--sub">PASSIONATLY CURIOUS</span>
             </h1>
         </div>
     </header>
+
 )
 
 export default Header;

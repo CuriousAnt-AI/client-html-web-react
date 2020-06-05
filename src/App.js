@@ -1,10 +1,11 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import HomePage from './pages/homepage/homepage.component';
 import { Route, Switch } from 'react-router-dom';
 import Header from './components/header/header.component';
 import Footer from './components/footer/footer.component';
 import SignInAndSignUp from './pages/sign-in-and-sign-up/sign-in-and-sign-up.component';
+import Navigation from './components/navigation/navigation.component';
 // import { auth } from './firebase/firebase.util';
 
 
@@ -42,6 +43,7 @@ class App extends React.Component {
     return (
       <div className='container'>
         <div className='wrapper' ref={this.wrapper}>
+          <Navigation />
           <Header currentUser={this.state.currentUser} />
           <Switch>
             <Route exact={true} path='/' component={HomePage} />
