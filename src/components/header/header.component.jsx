@@ -7,9 +7,9 @@ import { Link } from 'react-router-dom';
 
 const Header = ({ currentUser }) => (
     <header className='header'>
-        <div className='ca-logo-box'>
+        {/* <div className='ca-logo-box'>
             <img src='' alt='curious-ant-logo' className='ca-logo' />
-        </div>
+        </div> */}
         <div className='ca-header-box'>
             <h1 className='ca-primary-heading'>
                 <span className='ca-primary-heading-main'>CURIOUSANT</span>
