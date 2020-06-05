@@ -6,30 +6,17 @@ import { Link } from 'react-router-dom';
 //import { auth } from 'firebase';
 
 const Header = ({ currentUser }) => (
-    <div className='header'>
-        <Link className='logo-container' to='/'>
-            {/* <Logo className='logo' /> */}
-        </Link>
-        <div className='options'>
-            <Link className='option' to='/'>
-                HOME
-            </Link>
-            <Link className='option' to='/contact'>
-                CONTACT
-            </Link>
-            {/* <Link className='option' to='/signin'>
-                SIGN IN
-            </Link> */}
-            {
-                currentUser ?
-                    <div className='option'>SIGN OUT</div> :
-                    <Link className='option' to='/signin'>
-                        SIGN IN
-                    </Link>
-
-            }
+    <header className='header'>
+        {/* <div className='ca-logo-box'>
+            <img src='' alt='curious-ant-logo' className='ca-logo' />
+        </div> */}
+        <div className='ca-header-box'>
+            <h1 className='ca-primary-heading'>
+                <span className='ca-primary-heading-main'>CURIOUSANT</span>
+                <span className='ca-primary-heading-sub'>PASSIONATLY CURIOUS</span>
+            </h1>
         </div>
-    </div>
+    </header>
 )
 
 export default Header;
