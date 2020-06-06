@@ -16,6 +16,20 @@ const Header = ({ currentUser }) => (
                 <span className="heading-primary--sub">PASSIONATLY CURIOUS</span>
             </h1>
         </div>
+        <div className='row header__img-box'>
+            <div className='col-1-of-4'>
+                <img className='header__img' src='assets/img/undraw_browsing_urt9.svg' />
+            </div>
+            <div className='col-1-of-4'>
+                <img className='header__img' src='assets/img/undraw_master_plan_95wa.svg' />
+            </div>
+            <div className='col-1-of-4'>
+                <img className='header__img' src='assets/img/undraw_tabs_jf82.svg' />
+            </div>
+            <div className='col-1-of-4'>
+                <img className='header__img' src='assets/img/undraw_heatmap_uyye.svg' />
+            </div>
+        </div>
     </header>
 
 )

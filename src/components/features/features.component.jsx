@@ -1,25 +1,13 @@
 import React from 'react';
-import './directory.styles.scss';
-import MenuItem from '../menu-item/menu-item.component'
+import './features.styles.scss';
+import FeatureBox from '../../components/feature-box/feature-box.component';
 
-class Directory extends React.Component {
+class Features extends React.Component {
     constructor() {
         super();
 
         this.state = {
-            sections: [
-                {
-                    title: 'antorganic',
-                    imageUrl: 'assets/img/antorganic.jpg',
-                    id: 1,
-                    linkUrl: 'product/antorganic'
-                },
-                {
-                    title: 'formant',
-                    imageUrl: 'assets/img/formant.jpg',
-                    id: 2,
-                    linkUrl: 'product/formant'
-                },
+            features: [
                 {
                     title: 'antomation',
                     imageUrl: 'assets/img/antomation.jpg',
@@ -45,15 +33,22 @@ class Directory extends React.Component {
     }
     render() {
         return (
-            <div className='directory-menu'>
-                {
-                    this.state.sections.map(({ id, title, imageUrl, size }) => <MenuItem key={id} title={title} imageUrl={imageUrl} size={size} />)
+            <section className="section-features">
 
-                }
+                <div className="row">
 
-            </div>
+                    {
+                        this.state.features.map(({ id, title, imageUrl, size }) => {
+                            return (<div className="col-1-of-3">
+                                <FeatureBox key={id} title={title} imageUrl={imageUrl} size={size} />
+                            </div>)
+                        })
+
+                    }
+                </div>
+            </section>
         );
     }
 }
 
-export default Directory;
+export default Features;
