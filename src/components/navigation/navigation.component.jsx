@@ -4,18 +4,18 @@ import './navigation.styles.scss';
 
 const Navigation = () => (
     <div className='navigation'>
-        <input type="checkbox" class="navigation__checkbox" id="navi-toggle" />
+        <input type="checkbox" className="navigation__checkbox" id="navi-toggle" />
 
-        <label for="navi-toggle" class="navigation__button">
-            <span class="navigation__icon">&nbsp;</span>
+        <label htmlFor="navi-toggle" className="navigation__button">
+            <span className="navigation__icon">&nbsp;</span>
         </label>
 
-        <div class="navigation__background">&nbsp;</div>
-        <nav class="navigation__nav">
-            <ul class="navigation__list">
-                <li class="navigation__item"><a href="#" class="navigation__link">Home</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">Contact</a></li>
-                <li class="navigation__item"><a href="#" class="navigation__link">Sign Up</a></li>
+        <div className="navigation__background">&nbsp;</div>
+        <nav className="navigation__nav">
+            <ul className="navigation__list">
+                <li className="navigation__item"><a href="#" className="navigation__link">Home</a></li>
+                <li className="navigation__item"><a href="#" className="navigation__link">Contact</a></li>
+                <li className="navigation__item"><a href="#" className="navigation__link">Sign Up</a></li>
             </ul>
         </nav>
 
