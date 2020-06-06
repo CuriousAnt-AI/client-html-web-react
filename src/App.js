@@ -42,8 +42,8 @@ class App extends React.Component {
   render() {
     return (
       <div className='container'>
+        <Navigation />
         <div className='wrapper' ref={this.wrapper}>
-          <Navigation />
           <Header currentUser={this.state.currentUser} />
           <Switch>
             <Route exact={true} path='/' component={HomePage} />
