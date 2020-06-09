@@ -12,7 +12,8 @@ class Features extends React.Component {
                     title: 'antomation',
                     imageUrl: 'assets/img/antomation.jpg',
                     id: 3,
-                    linkUrl: 'product/antomation'
+                    linkUrl: 'product/antomation',
+                    text: 'Antomation is the next level streamlining of the workflow which subsequently affects the workforce with improved efficiency'
                 },
                 {
                     title: 'antrance',
@@ -20,6 +21,7 @@ class Features extends React.Component {
                     size: 'large',
                     id: 4,
                     linkUrl: 'product/antrance',
+                    text: 'An online E-learing application for the curious students to test their knowledge by evaluating them using huge number of test data sets from various exams.'
                 },
                 {
                     title: 'antronics',
@@ -27,6 +29,7 @@ class Features extends React.Component {
                     size: 'large',
                     id: 5,
                     linkUrl: 'product/antronics',
+                    text: 'IoT driven solutions to updgrade and tranform the existing system with new standards. Helps to make effective decision by processing real time data'
                 }
             ]
         }
@@ -38,9 +41,9 @@ class Features extends React.Component {
                 <div className="row">
 
                     {
-                        this.state.features.map(({ id, title, imageUrl, size }) => {
+                        this.state.features.map(({ id, title, imageUrl, size, text }) => {
                             return (<div className="col-1-of-3">
-                                <FeatureBox key={id} title={title} imageUrl={imageUrl} size={size} />
+                                <FeatureBox key={id} title={title} imageUrl={imageUrl} size={size} text={text} />
                             </div>)
                         })
 
