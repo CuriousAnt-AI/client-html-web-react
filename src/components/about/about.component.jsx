@@ -5,17 +5,29 @@ const About = () => (
     <section className='section-about'>
         <div className="u-center-text u-margin-bottom-big">
             <h2 className="heading-secondary">
-                Business process automation is the next level streamlining of the workflow
+                Will be the NEXT BIG UPGRADE you are looking for.
             </h2>
         </div>
         <div className="row">
             <div className="col-1-of-2">
-                <h3 className="heading-tertiary u-margin-bottom-small">You're going to fall in love with automation</h3>
+                {/* <h3 className="heading-tertiary u-margin-bottom-small">OUR VISION</h3>
                 <p className="paragraph">
-                    As the volumes of data are usually high, compiling them in one single process is a tedious and lengthy process. Not to forget, since they are done manually, there is always scope for multiple human errors and miscalculations.
+                    Curiousant's solution will be the upgrade every customer look for.
+                </p> */}
+                <p className="paragraph">
+                    Curiousant India Private Limited is a technology oriented company that helps other enterprises to reinvent their businesses for the new digital age.
+                    At Curiousant ,we have strong risk-taking, and focus on customer relationships.
+                    We help customers to do business better by providing technological solutions, process-driven approach and by providing various technical services to improve their business model.
+                    We believe in customer relationship.Team Curiousant is a team of dedicated team of enthusiastic and experienced professionals and technology entrepreneurs,who believe in changing the world by giving technology oriented solutions to real world problems.
                 </p>
+                {/* <h3 className="heading-tertiary u-margin-bottom-small">OUR MISSION</h3>
                 <p className="paragraph">
-                    Business process automation is the next level streamlining of the workflow which subsequently affects the workforce with improved efficacy and no room for error. A company is able to focus on important propositions and agenda without worrying about the time-consuming tasks and documentation.
+                    To provide the best solutions to real world problems
+                    and to help people to grow their business.
+                </p> */}
+                <h3 className="heading-tertiary u-margin-bottom-small">VALUES</h3>
+                <p className="paragraph">
+                    INNOVATION. TEAMWORK. QUALITY. EXCELLENCE
                 </p>
             </div>
             <div className="col-1-of-2">

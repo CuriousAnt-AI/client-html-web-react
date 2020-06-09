@@ -13,9 +13,7 @@ const Navigation = () => (
         <div className="navigation__background">&nbsp;</div>
         <nav className="navigation__nav">
             <ul className="navigation__list">
-                <li className="navigation__item"><a href="#" className="navigation__link">Home</a></li>
-                <li className="navigation__item"><a href="#" className="navigation__link">Contact</a></li>
-                <li className="navigation__item"><a href="#" className="navigation__link">Sign Up</a></li>
+                <li className="navigation__item"><a href="#" className="navigation__link">COMING SOON</a></li>
             </ul>
         </nav>
 
