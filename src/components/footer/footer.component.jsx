@@ -45,16 +45,19 @@ const Footer = ({ currentUser }) => (
                 <div className="footer__navigation">
                     <ul className="footer__list">
                         <li className="footer__item">
+
                             <picture className="social_logo">
                                 <source srcSet="assets/img/google_icon.svg, assets/img/google_icon.svg"
                                     media="(max-width: 37.5em)" />
                                 <img srcSet="assets/img/google_icon.svg, assets/img/google_icon.svg" height="24" width="24" alt="Full logo" src="assets/img/google_icon.svg" />
                             </picture>
-                            <picture className="social_logo">
-                                <source srcSet="assets/img/facebook_square_color.svg, assets/img/facebook_square_color.svg"
-                                    media="(max-width: 37.5em)" />
-                                <img srcSet="assets/img/facebook_square_color.svg, assets/img/facebook_square_color.svg" height="24" width="24" alt="Full logo" src="assets/img/facebook_square_color.svg" />
-                            </picture>
+                            <a href='https://www.facebook.com/Curious-Ant-101408181612586/' target='_blank'>
+                                <picture className="social_logo">
+                                    <source srcSet="assets/img/facebook_square_color.svg, assets/img/facebook_square_color.svg"
+                                        media="(max-width: 37.5em)" />
+                                    <img srcSet="assets/img/facebook_square_color.svg, assets/img/facebook_square_color.svg" height="24" width="24" alt="Full logo" src="assets/img/facebook_square_color.svg" />
+                                </picture>
+                            </a>
                             <picture className="social_logo">
                                 <source srcSet="assets/img/linkedin_square_color.svg, assets/img/linkedin_square_color.svg"
                                     media="(max-width: 37.5em)" />
@@ -67,7 +70,7 @@ const Footer = ({ currentUser }) => (
             </div>
             <div className="col-1-of-4">
                 <p className="footer__copyright">
-                    Copyright @ Curious Ant AI 2020
+                    Copyright @ Curious Ant India Pvt. Ltd. 2020
                 </p>
             </div>
 
